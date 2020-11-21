@@ -12,6 +12,15 @@ Options:
 " -> doc
 
 library(docopt)
-opt <- docopt(doc)
-print(opt)
-print(typeof(opt))
+main <- function(){
+    opt <- docopt(doc)
+    print(opt)
+    print(typeof(opt))
+    
+    print("first statement")
+    print("second statement")
+    print("third statement")
+
+}
+
+main()
